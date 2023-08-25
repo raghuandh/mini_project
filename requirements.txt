@@ -3,4 +3,4 @@ requests
 bs4
 selenium
 IPython
-webdriver-manager
+webdriver_manager

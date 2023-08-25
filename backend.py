@@ -1,9 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-import matplotlib.pyplot as plt
-import matplotlib.image as mpimg
-import urllib
-from urllib.request import urlopen
+
 import streamlit as st
 import pandas as pd
 from IPython.core.display import HTML, display
@@ -16,7 +13,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 from selenium.webdriver.support import expected_conditions as EC
 
-from bs4 import BeautifulSoup
+
 
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By

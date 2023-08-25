@@ -21,7 +21,7 @@ from selenium.webdriver.common.by import By
 
 from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.chrome.options import Options
-
+from webdriver_manager.chrome import ChromeDriverManager
 option = Options()
 option.add_argument('--headless')
 # Creating Front end using StreamLit

@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 
 import streamlit as st
 import pandas as pd
+import IPython
 from IPython.core.display import HTML, display
 from time import sleep
 from selenium import webdriver
